@@ -13,7 +13,7 @@ body {
 .header,
 .footer,
 .hero {
-    padding: 0 15%;
+    padding: 0 15vw;
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -60,11 +60,13 @@ body {
     justify-content: space-between;
     gap: 20px;
     align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .hero-text,
 .hero-image {
-    width: 35%;
+    width: 35vw;
 }
 
 .hero-text {
@@ -90,6 +92,15 @@ body {
 .hero-button,
 .action-button {
     width: 100px;
+}
+
+.hero-image {
+    background-color: grey;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {

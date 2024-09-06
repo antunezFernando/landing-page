@@ -83,16 +83,16 @@ body {
 
 .hero-button {
     color: #F9FAF8;
-    font-weight: bold;
     background-color: #3882F6;
     border: none;
-    padding: 5px;
-    border-radius: 5px;
 }
 
 .hero-button,
 .action-button {
     width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .hero-image {
@@ -170,6 +170,40 @@ body {
 .author {
     align-self: flex-end;
     font-weight: bold;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20vw;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    width: 60vw;
+    padding: 25px 50px;
+    border-radius: 5px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.action-header {
+    font-weight: 900;
+}
+
+.action-button {
+    background-color: inherit;
+    color: inherit;
+    border: 1px solid #F9FAF8;
 }
 
 .footer {

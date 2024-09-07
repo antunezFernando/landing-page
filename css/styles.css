@@ -1,5 +1,4 @@
 body {
-    height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -24,6 +23,9 @@ body {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .header-logo {
@@ -94,13 +96,24 @@ body {
     padding: 5px;
 }
 
-.hero-image {
+/* .hero-image {
     background-color: grey;
     height: 100%;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
 }
 
 .information {
